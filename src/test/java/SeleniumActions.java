@@ -57,29 +57,11 @@ public boolean isPresent( By e, int timeout) {
 
 }
 
-//        public boolean isClickable(By e, int timeout) {
-//            try {
-//                new WebDriverWait(driver, timeout).until(ExpectedConditions.elementToBeClickable(e));
-//            } catch (Exception a){
-//                return false;
-//            }
-//            return true ;
-//
-//        }
-
-//    public boolean isClickable(WebElement e, int timeout) {
-//        try {
-//            new WebDriverWait(driver, timeout).until(ExpectedConditions.elementToBeClickable(e));
-//        } catch (Exception a){
-//            return false;
-//        }
-//        return true ;
-//
-//    }
-
-
-
     }
+
+
+
+
 
 
 
